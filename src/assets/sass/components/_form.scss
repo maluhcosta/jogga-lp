@@ -1,0 +1,50 @@
+.formulario {
+    width: 40%;
+    height: 80%;
+
+    padding: 50px;
+    background: $white;
+    box-shadow: .3px .3px 3px #878B87;
+
+    .paragrafo-formulario {
+        text-align: center;
+        font-size: 1.2rem;
+        padding-bottom: 35px;
+    }
+
+    .titulo-formulario {
+        font-size: 1rem;
+        padding-left: 20px;
+    }
+
+    input {
+        padding: 0 0 5px 10px;  
+        border: none;
+        outline: none;
+    }
+
+    .input-negocios {
+        padding: 0 0 50px 10px;
+    }
+
+    .div-botao {
+        padding: .5rem .2rem 0 0;
+    }
+    
+    .botao-enviar {
+        width: 5rem;
+        height: 2rem;
+    
+        color: $white;
+        background: $btn-color;            
+        border-radius: 2px;
+        transition: .3s;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+
+    .botao-enviar:hover {
+        background: $btn-hover;
+    }
+}

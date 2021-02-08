@@ -1,0 +1,123 @@
+@import './variables';
+@import './base';
+@import './components/form';
+@import './layout/header';
+
+
+.primeira-sessao {
+    height: 100vh;
+    background: $yellow;
+
+    .modelo {
+        height: 30rem;
+    }
+
+    .paragrafo-primeira-sessao {
+        font-size: 2rem;
+    }
+}
+
+.segunda-sessao {
+    width: 100vw;
+    height: 50vh;
+
+    .titulos-segunda-sessao {
+        width: 2vh;
+        color: $yellow;
+        font-size: 1.2rem;
+    }
+
+    .number {
+        color: $gray;
+    }
+
+    .img-novos-clientes {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .paragrafo-novos-clientes {
+        color: $gray;
+    }
+}
+
+.terceira-sessao {
+    width: 100vw;
+    height: 50vh;
+    background: $dark-gray;
+
+    .div-ferramentas-exclusivas {
+        color: $white;
+    }
+
+    .subtitulos-ferramentas-exclusivas {
+        color: $yellow;
+    }
+
+    .paragrafos-ferramentas-exclusivas {
+        color: $white;
+    }
+}
+
+.quarta-sessao {
+    width: 100vw;
+    height: 50vh;
+    background: $white;
+
+    .check {
+        width: 2rem;
+    }
+}
+
+.quinta-sessao {
+    width: 100vw;
+    height: 60vh;
+
+    .equipe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .conte-com-jogga {
+        .titulo-conte-com-jogga {
+            padding-bottom: 25px;
+        }
+
+        .paragrafo-conte-com-jogga {
+            padding: 5px 0 10px 0;
+        }
+
+        .subtitulo-conte-com-jogga {
+            padding: 20px 0 5px 0;
+        }
+
+        .div-separacao2 {
+            padding: 5px;
+
+            .icone-telefone {
+                width: 1.2rem;
+                margin: 0 10px 0 15px;
+            }
+    
+            .paragrafo-telefone {
+                font-size: 1.2rem;
+            }
+        }
+    }   
+}
+
+.sexta-sessao {
+    width: 100vw;
+    height: 40vh;
+    background: $gray;
+}
+
+// .setima-sessao {}
+
+.footer {
+    width: 100vw;
+    height: 15vh;
+    &__logo {
+        width: 2rem;
+    }
+}
