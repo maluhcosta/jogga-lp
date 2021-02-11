@@ -1,0 +1,36 @@
+{
+  "name": "jogga-lp",
+  "version": "1.0.0",
+  "description": "landing page da jogga",
+  "main": "gulpfile.js",
+  "scripts": {
+    "cache": "gulp cache",
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maluhcosta/jogga-lp.git"
+  },
+  "keywords": [
+    "jogga",
+    "landingpage",
+    "html",
+    "sass",
+    "javascript",
+    "gulp"
+  ],
+  "author": "Maria Luisa Costa",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-file-include": "^2.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/maluhcosta/jogga-lp/issues"
+  },
+  "homepage": "https://github.com/maluhcosta/jogga-lp#readme"
+}
